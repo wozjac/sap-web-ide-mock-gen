@@ -1,0 +1,45 @@
+{
+    "name": "sap-web-ide-mock-gen-generator",
+    "description": "Generates mock data using UI5's MockServer and additional settings",
+    "i18n": "sap-web-ide-mock-gen-generator/i18n/i18n",
+    "requires": {
+        "services": [
+            "usernotification",
+            "beautifierProcessor",
+            "content",
+            "document",
+            "documentProvider",
+            "log",
+            "command",
+            "commandGroup"
+        ]
+    },
+    "provides": {
+        "services": {
+            "generator": {
+                "implements": "sap-web-ide-mock-gen-generator.service.Generator",
+                "module": "sap-web-ide-mock-gen-generator/service/Generator"
+            }
+        },
+
+        "interfaces": {
+            "sap-web-ide-mock-gen-generator.service.Generator": "sap-web-ide-mock-gen-generator/service/Generator"
+        }
+    },
+    "configures": {
+        "services": {
+            "command:commands": [{
+                "id": "sap-web-ide-mock-gen-generator.generateMockData",
+                "label": "{i18n>commandGenerateMockData}",
+                "service": "sap-web-ide-mock-gen-generator/command/generateMockData"
+            }],
+
+            "commandGroup:items": [{
+                "parent": "tools",
+                "type": "action",
+                "command": "sap-web-ide-mock-gen-generator.generateMockData",
+                "prio": 10
+            }]
+        }
+    }
+}

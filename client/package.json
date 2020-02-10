@@ -1,0 +1,12 @@
+{
+    "name": "sap-web-ide-mock-gen",
+    "title": "SAP Web IDE extension: configurable mock data sets for MockServer",
+    "version": "1.0.0",
+    "description": "SAP Web IDE extension: configurable mock data sets for the standard UI5's MockServer",
+    "author": "Jacek Woźniczak <wozjac@zoho.com> (https://www.linkedin.com/in/jacek-wznk)",
+    "homepage": "https://github.com/wozjac/sap-web-ide-mock-gen",
+    "icon": "file:sap-web-ide-mock-gen-generator/assets/icon.png",
+    "bundledPlugins": {
+        "sap-web-ide-mock-gen-generator": "file:sap-web-ide-mock-gen-generator"
+    }
+}

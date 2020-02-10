@@ -1,0 +1,9 @@
+{
+    "name": "sap-web-ide-mock-gen-generator.service.Generator",
+    "description": "Mock data generator",
+    "methods": {
+        "generateMockData": {
+            "description": "Generate mock data using oData MockServer using additional configuration options"
+        }
+    }
+}
