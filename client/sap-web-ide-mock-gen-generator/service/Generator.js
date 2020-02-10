@@ -34,6 +34,9 @@ define([
                         message = that.context.i18n.getText("i18n", "mockConfigNotFound");
                         that.context.service.usernotification.liteNotificationInfo(message);
                         that.context.service.log.info("Mock Data Generator", message).done();
+                    } else {
+                    	message = that.context.i18n.getText("i18n", "mockConfigFound");
+                    	that.context.service.log.info("Mock Data Generator", message).done();
                     }
 
                     var mockGenerator = new ODataMockGenerator(filesContent[0], filesContent[1]);

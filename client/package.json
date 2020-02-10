@@ -1,7 +1,7 @@
 {
     "name": "sap-web-ide-mock-gen",
     "title": "SAP Web IDE extension: configurable mock data generation",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "SAP Web IDE extension: configurable mock data generation using standard UI5's MockServer",
     "author": "Jacek Woźniczak <wozjac@zoho.com> (https://www.linkedin.com/in/jacek-wznk)",
     "homepage": "https://github.com/wozjac/sap-web-ide-mock-gen",
