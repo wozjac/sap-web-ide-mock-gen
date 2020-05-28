@@ -171,4 +171,7 @@ Some useful information are outputted to SAP Web IDE console; messages are prefi
 This plugin is licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 ## Author
-Feel free to contact me: wozjac@zoho.com or via LinkedIn (https://www.linkedin.com/in/jacek-wznk).
+Feel free to contact me:  
+- wozjac@zoho.com 
+- Twitter (https://twitter.com/jacekwoz)  
+- LinkedIn (https://www.linkedin.com/in/jacek-wznk)
